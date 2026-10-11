@@ -1,67 +1,38 @@
-#  Home Automation Using Android
-
-##  Project Description
-
-Home Automation Using Android is a smart home project that allows users to control electrical appliances such as lights and fans using an Android smartphone.
-
-The Android phone sends commands through Bluetooth to an Arduino. The Arduino controls the appliances using a relay module.
-
-##  Objectives
-
-- Control home appliances using an Android phone
-- Reduce manual effort
-- Provide convenient wireless control
-- Demonstrate basic home automation
-
-##  Components Required
-
+# Home Automation Using Arduino
+This project is a simple Arduino-based home automation system designed to control electrical appliances automatically using sensors and a relay module.
+## Objective
+The objective is to develop a simple, low-cost, and efficient system for automating household appliances such as lights and fans using an Arduino microcontroller.
+## Components
 - Arduino Uno
-- Android Smartphone
-- HC-05/HC-06 Bluetooth Module
 - Relay Module
-- Bulb/LED
+- Sensors
+- LED or Bulb
 - Breadboard
 - Jumper Wires
 - Power Supply
 - USB Cable
+- Laptop
+## Working
+The sensor detects a change in the environment and sends the information to the Arduino. The Arduino processes the input and controls the connected appliance through the relay module.
 
-##  Working
+Sensor → Arduino → Relay → Appliance
 
-The Android phone sends an ON/OFF command through Bluetooth. The Arduino receives the command and controls the relay module. The relay switches the connected appliance ON or OFF.
-
-### Working Flow
-
-Android Phone  
-⬇️  
-Bluetooth Module  
-⬇️  
-Arduino Uno  
-⬇️  
-Relay Module  
-⬇️  
-Home Appliance
-
-##  Applications
-
-- Smart home systems
-- Remote appliance control
+## Features
+- Automatic appliance control
+- Simple and low-cost design
+- Easy to build and modify
+- Reduces manual operation
+- Suitable for basic smart-home applications
+## Applications
+- Automatic lighting
+- Fan control
+- Smart rooms
 - Energy management
-- Home automation demonstrations
-- IoT-based automation projects
-
-##  Advantages
-
-- Simple and low-cost
-- Easy to operate
-- Wireless control
-- Reduces manual effort
-- Easy to expand
-
-##  Future Improvements
-
-- Wi-Fi-based control
-- Voice control
-- Mobile app development
-- IoT cloud monitoring
-- Automatic control using sensors
-
+- Home automation systems
+## Future Scope
+The system can be enhanced with Wi-Fi, Bluetooth, mobile application control, IoT connectivity, and voice control.
+## Technology Used
+- Arduino
+- Embedded C/C++
+- Sensors
+- Relay Control
