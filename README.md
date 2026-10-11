@@ -1,21 +1,18 @@
-## Home Automation using Arduino
-Home automation involves using technology to control and automate various household tasks and functions. In this project, we'll use an Arduino board to create a basic home automation system to control lights and appliances remotely. For this project, we will utilize the Bluetooth module to connect devices and implement automation remotely.
+## Home Automation Using Android
 
-## Components required:
-1.PCB
+Home Automation Using Android is a smart home project that allows users to control electrical appliances such as lights and fans using an Android phone. The Android phone sends commands to a microcontroller, which switches the appliances ON or OFF through a relay module. This reduces manual effort and provides convenient control of home appliances.
 
-2.5V RELAY
+## Components Required
 
-3.FEMALE PINS TERMINALS
+Arduino Uno
+Android smartphone
+Bluetooth module (HC-05/HC-06)
+Relay module
+Bulb/LED or small DC load
+Breadboard
+Jumper wires
+Power supply
+USB cable
 
-4.BATTERY PIN
-
-5.HC-05 BT
-
-6.ARDUINO NANO
-
-7.CONNECTING WIRES
-
-8.Bulb
-
-9.Motor
+## Working
+Android phone → Bluetooth → Arduino → Relay → Appliance ON/OFF
