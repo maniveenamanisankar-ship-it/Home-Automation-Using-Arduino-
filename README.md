@@ -1,19 +1,19 @@
-# 🏠 Home Automation Using Android
+#  Home Automation Using Android
 
-## 📌 Project Description
+##  Project Description
 
 Home Automation Using Android is a smart home project that allows users to control electrical appliances such as lights and fans using an Android smartphone.
 
 The Android phone sends commands through Bluetooth to an Arduino. The Arduino controls the appliances using a relay module.
 
-## 🎯 Objectives
+##  Objectives
 
 - Control home appliances using an Android phone
 - Reduce manual effort
 - Provide convenient wireless control
 - Demonstrate basic home automation
 
-## 🛠️ Components Required
+##  Components Required
 
 - Arduino Uno
 - Android Smartphone
@@ -25,7 +25,7 @@ The Android phone sends commands through Bluetooth to an Arduino. The Arduino co
 - Power Supply
 - USB Cable
 
-## ⚙️ Working
+##  Working
 
 The Android phone sends an ON/OFF command through Bluetooth. The Arduino receives the command and controls the relay module. The relay switches the connected appliance ON or OFF.
 
@@ -41,7 +41,7 @@ Relay Module
 ⬇️  
 Home Appliance
 
-## 🔌 Applications
+##  Applications
 
 - Smart home systems
 - Remote appliance control
@@ -49,7 +49,7 @@ Home Appliance
 - Home automation demonstrations
 - IoT-based automation projects
 
-## ✅ Advantages
+##  Advantages
 
 - Simple and low-cost
 - Easy to operate
@@ -57,7 +57,7 @@ Home Appliance
 - Reduces manual effort
 - Easy to expand
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Wi-Fi-based control
 - Voice control
